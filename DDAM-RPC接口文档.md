@@ -4,7 +4,7 @@
 
 接口方法：Post
 
-数据类型：json		
+数据类型：json
 
 返回类型：json
 
@@ -50,7 +50,7 @@
 {
 "method": "Gx_tx",
 "params": [
-    "{\"target\":\"0x3240f6ac9f92aaee6183b3d3da603622f9c2481d49d88010954369e3e2882c5f\",\"value\":1000,\"gas\":10000,\"gasprice\":10000,\"tx_type\":0,\"nonce\":2,\"data\":null,\"sign\":\"0xb2bc6267d8a87c3ad893fcb66bf9d792a9e873a95c6c5558be9f59997befc9c6521dbcd1c51942f8c77b6efaa3a69e82dc7b409b02aaa92e739b1766a77d3dd501\"}"
+    "{\"target\":\"DD3240f6ac9f92aaee6183b3d3da603622f9c2481d49d88010954369e3e2882c5f\",\"value\":1000,\"gas\":10000,\"gasprice\":10000,\"tx_type\":0,\"nonce\":2,\"data\":null,\"sign\":\"0xb2bc6267d8a87c3ad893fcb66bf9d792a9e873a95c6c5558be9f59997befc9c6521dbcd1c51942f8c77b6efaa3a69e82dc7b409b02aaa92e739b1766a77d3dd501\"}"
 ],
 "jsonrpc": "2.0",
 "id": 1
@@ -97,7 +97,7 @@
 
 接口方法：Post
 
-数据类型：json		
+数据类型：json
 
 返回类型：json
 
@@ -159,7 +159,7 @@
 
 接口方法：Post
 
-数据类型：json		
+数据类型：json
 
 返回类型：json
 
@@ -223,7 +223,7 @@
 
 接口方法：Post
 
-数据类型：json		
+数据类型：json
 
 返回类型：json
 
@@ -269,7 +269,7 @@
 
 接口方法：Post
 
-数据类型：json		
+数据类型：json
 
 返回类型：json
 
@@ -344,8 +344,8 @@
 				"gas_price": 500,
 				"hash": "0x2edd6a1c6c694bcbc48bee73c07f0e622cf9a2b11c3c98931db0837b79ecf1ab",
 				"nonce": 99,
-				"source": "0xe75051bf0048decaffa55e3a9fa33e87ed802aaba5038b0fd7f49401f5d8b019",
-				"target": "0xed890e78fc5d07e85e66b7926d8370c095570abb5259e346438abd3ea7a56a8a",
+				"source": "DDe75051bf0048decaffa55e3a9fa33e87ed802aaba5038b0fd7f49401f5d8b019",
+				"target": "DDed890e78fc5d07e85e66b7926d8370c095570abb5259e346438abd3ea7a56a8a",
 				"type": 0,
 				"value": 10
 		}
@@ -361,7 +361,7 @@
 
 接口方法：Post
 
-数据类型：json		
+数据类型：json
 
 返回类型：json
 
@@ -421,10 +421,10 @@
 		"data": {
 				"receipt": {
 						"cumulativeGasUsed": 447,
-						"height": 25314,	
+						"height": 25314,
 						"status": 0,
 						"transactionHash": "0x2edd6a1c6c694bcbc48bee73c07f0e622cf9a2b11c3c98931db0837b79ecf1ab",
-			"tx_index": 0	
+			"tx_index": 0
 				}
 				"transaction": {
 						"data": "aGVsbG8gd29ybGQ=",
@@ -432,8 +432,8 @@
 						"gas_price": 500,
 						"hash": "0x2edd6a1c6c694bcbc48bee73c07f0e622cf9a2b11c3c98931db0837b79ecf1ab",
 						"nonce": 99,
-						"source": "0xe75051bf0048decaffa55e3a9fa33e87ed802aaba5038b0fd7f49401f5d8b019",
-						"target": "0xed890e78fc5d07e85e66b7926d8370c095570abb5259e346438abd3ea7a56a8a",
+						"source": "DDe75051bf0048decaffa55e3a9fa33e87ed802aaba5038b0fd7f49401f5d8b019",
+						"target": "DDed890e78fc5d07e85e66b7926d8370c095570abb5259e346438abd3ea7a56a8a",
 						"type": 0,
 						"value": 10
 				}
@@ -448,7 +448,7 @@
 
 接口方法：Post
 
-数据类型：json		
+数据类型：json
 
 返回类型：json
 
@@ -466,7 +466,7 @@
 ```json
 {
 "method": "Gx_balance",
-"params": ["0xe75051bf0048decaffa55e3a9fa33e87ed802aaba5038b0fd7f49401f5d8b019"],
+"params": ["DDe75051bf0048decaffa55e3a9fa33e87ed802aaba5038b0fd7f49401f5d8b019"],
 "jsonrpc": “2.0”,
 "id": 1,
 }
@@ -493,7 +493,7 @@
 "jsonrpc": “2.0”,
 "id": 1,
 "result":	{
-		"message": "The balance of account: 0xe75051bf0048decaffa55e3a9fa33e87ed802aaba5038b0fd7f49401f5d8b019 is 251 DDAM",
+		"message": "The balance of account: DDe75051bf0048decaffa55e3a9fa33e87ed802aaba5038b0fd7f49401f5d8b019 is 251 DDAM",
 		"staus": 0,
 		"data": 251
 	}
@@ -506,7 +506,7 @@
 
 接口方法：Post
 
-数据类型：json		
+数据类型：json
 
 返回类型：json
 
@@ -522,7 +522,7 @@
 ```+json
 {
 "method": "Gx_nonce",
-"params": ["0xe75051bf0048decaffa55e3a9fa33e87ed802aaba5038b0fd7f49401f5d8b019"],
+"params": ["DDe75051bf0048decaffa55e3a9fa33e87ed802aaba5038b0fd7f49401f5d8b019"],
 "jsonrpc": “2.0”,
 "id": 1,
 }
@@ -564,7 +564,7 @@
 
 接口方法：Post
 
-数据类型：json		
+数据类型：json
 
 返回类型：json
 
@@ -676,7 +676,7 @@
             "hash": "0x4c42611ccd967aec2b9600aa612cb58854769eeaf732e5e5b4c1ae6288845ccb",
             "pre_hash": "0x5271fe25ddca3215caebda2091cd68cd7974d2a6b6f7c691143c95b982264177",
             "cur_time": "2019-08-13T17:59:41+08:00",
-            "proposer": "0x0d2ca033becaee1dfd68798c0d855af235ca5ae7e8fdcefa8a7af075aa3e359d",
+            "proposer": "DD0d2ca033becaee1dfd68798c0d855af235ca5ae7e8fdcefa8a7af075aa3e359d",
             "nonce": 260655,
             "tx_tree": "0x82542fe7eea71710db9fe1024f0f61979f3a7cdcf125d838cfbedde2305f2668",
             "receipt_tree": "0x486fe7634a3c81f871c0b8611f1260c07c5b3625cae2f4fe1f49edcd37307435",
@@ -691,8 +691,8 @@
                     "data": "GsdZmVfXw7f+LZnqMD6OJotWTthc/3JjFhCQ/SIMXvw=",
                     "value": 0,
                     "nonce": 1,
-                    "source": "0x12c503e93a8a6348333ce043b825e3ae714b5be6785bc580b5e6743d5decb245",
-                    "target": "0xa6c1106469d59abaca375504f232738ef6cc7750f1e330cb1708cb275e8965e1",
+                    "source": "DD12c503e93a8a6348333ce043b825e3ae714b5be6785bc580b5e6743d5decb245",
+                    "target": "DDa6c1106469d59abaca375504f232738ef6cc7750f1e330cb1708cb275e8965e1",
                     "type": 1,
                     "gas_limit": 10000,
                     "gas_price": 10000,
@@ -742,8 +742,8 @@
                     "data": "",
                     "value": 1000,
                     "nonce": 3,
-                    "source": "0x0d2ca033becaee1dfd68798c0d855af235ca5ae7e8fdcefa8a7af075aa3e359d",
-                    "target": "0x0d2ca033becaee1dfd68798c0d855af235ca5ae7e8fdcefa8a7af075aa3e359d",
+                    "source": "DD0d2ca033becaee1dfd68798c0d855af235ca5ae7e8fdcefa8a7af075aa3e359d",
+                    "target": "DD0d2ca033becaee1dfd68798c0d855af235ca5ae7e8fdcefa8a7af075aa3e359d",
                     "type": 4,
                     "gas_limit": 3000,
                     "gas_price": 500,
@@ -753,8 +753,8 @@
                     "data": "",
                     "value": 5000,
                     "nonce": 4,
-                    "source": "0x0d2ca033becaee1dfd68798c0d855af235ca5ae7e8fdcefa8a7af075aa3e359d",
-                    "target": "0x12c503e93a8a6348333ce043b825e3ae714b5be6785bc580b5e6743d5decb245",
+                    "source": "DD0d2ca033becaee1dfd68798c0d855af235ca5ae7e8fdcefa8a7af075aa3e359d",
+                    "target": "DD12c503e93a8a6348333ce043b825e3ae714b5be6785bc580b5e6743d5decb245",
                     "type": 0,
                     "gas_limit": 3000,
                     "gas_price": 500,
@@ -794,7 +794,7 @@
 
 接口方法：Post
 
-数据类型：json		
+数据类型：json
 
 返回类型：json
 
@@ -812,7 +812,7 @@
 ```json
 {
 "method": "Gx_stake",
-"params": ["0x0d2ca033becaee1dfd68798c0d855af235ca5ae7e8fdcefa8a7af075aa3e359d"],
+"params": ["DD0d2ca033becaee1dfd68798c0d855af235ca5ae7e8fdcefa8a7af075aa3e359d"],
 "jsonrpc": “2.0”,
 "id": 1,
 }
@@ -839,7 +839,7 @@
 "jsonrpc": “2.0”,
 "id": 1,
 "result":	{
-		"message": "The stake of account: 0x0d2ca033becaee1dfd68798c0d855af235ca5ae7e8fdcefa8a7af075aa3e359d is 1000 DDAM",
+		"message": "The stake of account: DD0d2ca033becaee1dfd68798c0d855af235ca5ae7e8fdcefa8a7af075aa3e359d is 1000 DDAM",
 		"staus": 0,
 		"data": 1000
 	}
@@ -847,4 +847,4 @@
 
 ```
 
-## 
+##
